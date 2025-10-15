@@ -6,8 +6,6 @@ nHead = 8
 d_k = nDim // nHead
 
 X = np.random.randn(nToken, nDim)
-print("input shape:", X.shape)
-
 Wq = np.random.randn(nDim, nDim)
 Wk = np.random.randn(nDim, nDim)
 Wv = np.random.randn(nDim, nDim)
